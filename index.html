@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang='en'>
+ 
+<head>
+    <meta charset="utf-8">
+ 
+    <title>
+css 2 sajaro
+    </title>
+ 
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+ 
+        body {
+            border: 3;
+            width: 400;
+            margin: 2%;
+            justify-content: center;
+            overflow: hidden;
+        }
+ 
+        .box-wrapper {
+            height: 500px;
+            width: 1000px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+ 
+        #box1 {
+            background-color:rgb(1, 78, 155);
+            padding: 10px;
+            border: solid 1px green
+        }
+ 
+        #box2 {
+            background-color: aquamarine;
+            padding: 8px;
+            border: solid 1px blue
+        }
+ 
+        #box3 {
+            padding: 1px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: row;
+            border: solid 1px green
+        }
+ 
+        #box4 {
+            background-color: aquamarine;
+            width: "150px";
+            height: "100px";
+            flex-grow: 2;
+            border: solid 1px orange
+        }
+ 
+        .middle-column {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+ 
+        .middle-col4umn div {
+            flex-grow: 1;
+            margin: 0 8px;
+            border: solid 1px red;
+        }
+ 
+        .middle-column div+div {;
+            margin-top: 8px
+        }
+ 
+        #box8 {
+            background-color: aquamarine;
+            flex-grow: 1;
+            border: solid 1px black
+        }
+    </style>
+</head>
+ 
+<body>
+    <div class="box-wrapper">
+        <div id="box1">
+            მთავარი სასწავლო პროგრამები სკოლები პროფესიული განათლება საცნობარი პრეზენტაციები გამოცდები სტუდინფო
+        </div>
+ 
+        <div id="box2">
+            სკოლების მთავარი სკოლების ამბები სკოლების საძიებელი სასკოლო წრეები მოსწავლის მშობელს მშობელი მშობელს
+        </div>
+ 
+        <div id="box3">
+            <div id="box4">
+                <img src="138skola.jpg" width="50%">
+                <br>
+                <p>თბილისის 138-ე საჯარო სკოლის ხელახლა აშენებისთვის 11 მილიონ ლარამდე დაიხარჯა (+ფოტოები)</p>
+                <hr>
+                <p>გიმნაზია:აია-ჯეისის: მოსწავლეებმა საქართველოს ბავშთა და ახალგაზრდულ საგუნდო ეროვნულ კონკურსზე საპრიზო ადგილები მოიპოვეს</p>
+                <hr>
+                <p>სკოლა(ჰელიოში) კალიგრაფიის კონკურსი (ჩემი ხელმოწერა) ტარდება 2023 წლის 1 ნოემბერს</p>
+            </div>
+            <div class="middle-column">
+                <div id="box5">
+                    <img src="კრეატივი.jpg"width="200px">
+                </div>
+                <div id="box6">
+                    <p>ქალაქ ბათუმის №2 საჯარო სკოლა</p>
+                    <br>
+                    <img src="2 საჯარო.jpg"width="230px" height="150">
+                    <br>
+                    <p>მასწავლებელთა რაოდენობა: 101</p>
+                    <p>მოსწავლეთა რაოდენობა: 1858</p>
+                    <hr>
+                    <p>www.2school.ge</p>
+                    <p>bpschooln2@gmail.com</p>
+                    <P>აჭარა, ბათუმი</P>
+                    <p>ბათუმი, ჯინჭარაძის 19</p>
+                </div>
+                <div id="box7">
+                    
+                    <hr>
+                    <img src="edu.jpg"width="50px"><P>არის ჯი რეკლამის მასალების გამოყენების
+                        კომპანიის შესახებ განთავსების პირობები პირობები
+                        კონფიდენციალურობის დაგვიკავშირდით Find us on Google+
+                        პოლიტიკა</P>
+                </div>
+            </div>
+            <div id="box8">
+                <img src="satqmeli.jpg"width="150px">
+                <br>
+                <img src="kursebi.jpg"width="150px">
+                <br>
+                <img src="korporatiuli.jpg"width="150px">
+                <br>
+                <img src="xe.png"width="150px">
+                <br>
+                <img src="kerdzo.png"width="150px">
+
+                    
+        </div>
+    </div>
+</body>
+ 
+</html>
